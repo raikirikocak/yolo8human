@@ -4,3 +4,4 @@ torchaudio==2.2.0
 ultralytics
 opencv-python-headless
 streamlit
+numpy
