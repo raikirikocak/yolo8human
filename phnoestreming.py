@@ -1,4 +1,4 @@
-import cv2
+import opencv-python-headless
 import torch
 import streamlit as st
 from ultralytics import YOLO
