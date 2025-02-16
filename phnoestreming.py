@@ -5,6 +5,7 @@ from ultralytics import YOLO
 
 # Load model YOLOv8
 model = YOLO("yolov8n.pt")  # Bisa ganti ke 's', 'm', 'l', 'x' sesuai kebutuhan
+model.to("cpu")
 
 def detect_human(video_url, stop_flag):
     cap = cv2.VideoCapture(video_url)
