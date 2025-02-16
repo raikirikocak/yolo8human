@@ -2,6 +2,7 @@ import cv2
 import torch
 import streamlit as st
 from ultralytics import YOLO
+import numpy
 
 # Load model YOLOv8
 model = YOLO("yolov8n.pt")  # Bisa ganti ke 's', 'm', 'l', 'x' sesuai kebutuhan
